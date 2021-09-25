@@ -1,8 +1,8 @@
 # Federation of Bangladesh Chambers of Commerce and Industries
 
-This project with react [Create React App](https://fbcci-business-app2021.netlify.app/).
+This project with react [FBCCI Business App](https://fbcci-business-app2021.netlify.app/).
 
-## About this side
+## About this site
 
 1. Membership & Legal Affairs Division.
 2. SME & Price Monitoring Division.
