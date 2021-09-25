@@ -22,7 +22,7 @@ const OurTeam = () => {
         <div className="container team">
             <div className="row">
                 <div className="col-md-9">
-                    <div className="row">
+                    <div className="row gy-4">
                         {
                             teams.map(team => <SingleMember
                                 key={ team.id }

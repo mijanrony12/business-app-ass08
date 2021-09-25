@@ -1,32 +1,152 @@
 [
   {
     "id": 1,
-    "name": "mijan rony",
-    "owner": "group",
-    "designation": "md",
-    "age": 45,
-    "salary": 245000,
-    "country": "bd",
+    "name": "jasim uddin",
+    "owner": "Ahsan group",
+    "designation": "President",
+    "age": 65,
+    "salary": 345000,
+    "country": "Bangladesh",
     "img": "http://fbcci.org/wp-content/uploads/2021/05/Presedant.jpg"
   },
   {
     "id": 2,
-    "name": "mijan rony",
-    "owner": "group",
-    "designation": "md",
-    "age": 45,
-    "salary": 245000,
-    "country": "bd",
-    "img": "http://fbcci.org/wp-content/uploads/2021/05/Presedant.jpg"
+    "name": "A.K Azad",
+    "owner": "Hammen group",
+    "designation": "ass. president",
+    "age": 62,
+    "salary": 275000,
+    "country": "BD",
+    "img": "http://en.bbarta24.net/assets/images/news_images/2018/05/22/ak%20azad1111111111111111_17720.jpg"
   },
   {
     "id": 3,
-    "name": "mijan rony",
-    "owner": "group",
-    "designation": "md",
+    "name": "aminul islam",
+    "owner": "Mahmud group",
+    "designation": "Chief Director",
+    "age": 69,
+    "salary": 255000,
+    "country": "Bangladesh",
+    "img": "https://i.ytimg.com/vi/hhjcu26tkJw/maxresdefault.jpg"
+  },
+  {
+    "id": 4,
+    "name": "fazlur rahman",
+    "owner": "city group",
+    "designation": " Director",
+    "age": 74,
+    "salary": 235000,
+    "country": "Bangladesh",
+    "img": "https://www.citygroup.com.bd/public/backEnd/img/chairman/16111331771549953242chairman.jpg"
+  },
+  {
+    "id": 5,
+    "name": "mostafa kamal",
+    "owner": "Meghna group",
+    "designation": " deputy Director",
+    "age": 71,
+    "salary": 225000,
+    "country": "Bangladesh",
+    "img": "https://www.banglanews24.com/english/public/uploads/2021/08/07/1628321181.1628275903.235229Mostafa_kalerkantho_pic.gif"
+  },
+  {
+    "id": 6,
+    "name": "Ahmed akbar",
+    "owner": "bashundhara group",
+    "designation": " Chairman",
+    "age": 72,
+    "salary": 205000,
+    "country": "Bangladesh",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/4/43/Ahmed_Akbar_Sobhan_3.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Manzur Elahi",
+    "owner": "Apex group",
+    "designation": "vice Chairman",
+    "age": 72,
+    "salary": 200000,
+    "country": "Bangladesh",
+    "img": "https://top10businessmeninbd.files.wordpress.com/2014/05/top-ten-business-man-in-bangladesh-syed-manzur-elahi1.jpg?w=180"
+  },
+  {
+    "id": 8,
+    "name": "salman rahman",
+    "owner": "Beximco group",
+    "designation": "Co. Chairman",
+    "age": 72,
+    "salary": 190000,
+    "country": "Bangladesh",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv4dkWYxl37BzRxF_34iivghTCn93LqoR1nF6fSh10C66VUlE1LMkyClx30y-Onm0C2MI&usqp=CAU"
+  },
+  {
+    "id": 9,
+    "name": "Bashir uddin",
+    "owner": "Akij group",
+    "designation": "CEO",
+    "age": 52,
+    "salary": 180000,
+    "country": "Bangladesh",
+    "img": "https://assetcdn.buhlergroup.com/rendition/874601345621/72c995dda435430b9b883afed4df8ba9/-FJPG-TwebQuote_1x1-S1600x1600"
+  },
+  {
+    "id": 10,
+    "name": "Amjad khan",
+    "owner": "RFL group",
+    "designation": "COO",
+    "age": 49,
+    "salary": 180000,
+    "country": "Bangladesh",
+    "img": "http://www.rflplastics.com/wp-content/uploads/2019/03/Rathendra_Nath_Paul.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Golam Murshed",
+    "owner": "Walton group",
+    "designation": "GM",
+    "age": 38,
+    "salary": 160000,
+    "country": "Bangladesh",
+    "img": "https://waltonbd.com/image/cache/catalog/blog/news/local-news/md-1600x975.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Anjan Chow.",
+    "owner": "Square group",
+    "designation": "DGM",
+    "age": 78,
+    "salary": 150000,
+    "country": "Bangladesh",
+    "img": "http://www.squarepharma.com.bd/images/Anjan%20Chowdhury%201.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Rubana Huq",
+    "owner": "Mohammodi group",
+    "designation": "DGM",
+    "age": 48,
+    "salary": 150000,
+    "country": "Bangladesh",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Rubana_Huq_at_the_21st_Year_Celebration_Ceremony_of_TechnoVista_Limited.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Md. Rasel",
+    "owner": "Partex group",
+    "designation": "AGM",
     "age": 45,
-    "salary": 245000,
-    "country": "bd",
-    "img": "http://fbcci.org/wp-content/uploads/2021/05/Presedant.jpg"
+    "salary": 140000,
+    "country": "Bangladesh",
+    "img": "https://www.daily-sun.com/assets/news_images/2017/03/06/thumbnails/DailySun-2017-03-06-02-34.jpg"
+  },
+  {
+    "id": 15,
+    "name": "abul khair",
+    "owner": "A.Khair group",
+    "designation": "Manager",
+    "age": 475,
+    "salary": 120000,
+    "country": "Bangladesh",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Abul_Khair_Litu.jpg"
   }
 ]

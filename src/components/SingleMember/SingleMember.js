@@ -15,7 +15,7 @@ const SingleMember = (props) => {
                            <img src={img} alt="" />
                    </div>
             <div>
-                <h2>Name:- { name}</h2>           
+                <h6>Name:- { name}</h6>           
                 <table>
                     <tr>
                         <td>Owner:-</td>
