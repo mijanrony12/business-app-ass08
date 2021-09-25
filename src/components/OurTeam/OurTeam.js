@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import SingleMember from '../SingleMember/SingleMember';
 import './OurTeam.css'
 
 const OurTeam = () => {
@@ -7,11 +8,25 @@ const OurTeam = () => {
     useEffect(() => {
         fetch('./FakeData.JSON')
             .then(response => response.json())
-        .then(data => console.log(data))
+        .then(data => setTeams(data))
     },[])
     return (
-        <div>
-            
+        <div className="container team">
+            <div className="row">
+                <div className="col-md-9">
+                    <div className="row">
+                        {
+                            teams.map(team => <SingleMember
+                                key={ team.id }
+                                member={team}
+                            >
+                                   
+                               </SingleMember>)
+                             }
+                     </div>
+                </div>
+                <div className="col-md-3"></div>
+            </div>
         </div>
     );
 };
