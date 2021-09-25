@@ -10,3 +10,12 @@
 .cart h3 small {
   margin-right: 5px;
 }
+.cart button {
+  background-color: #2d3436;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-align: center;
+}

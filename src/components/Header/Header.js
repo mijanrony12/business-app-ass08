@@ -6,6 +6,7 @@ import './Header.css'
 const Header = () => {
     return (
         <>
+            {/* showing navigation */}
             <div className="navbar">
                        <div className="logo">
                               <img src={logo} alt="" />
@@ -18,6 +19,8 @@ const Header = () => {
                     <a href="/contact">Contact</a>
                 </div>
             </div>
+            
+            {/* header section */}
             <div className="container header-content">
                         <h1>Federation of Bangladesh Chambers of Commerce and Industries</h1>
                         <p>Heartfelt Congratulations to the H.E Sheikh Hasina, Prime Minister of People’s Republic of Bangladesh for receiving SDG Progress Award from the United Nations.

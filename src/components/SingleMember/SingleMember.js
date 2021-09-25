@@ -3,12 +3,15 @@ import './SingleMember.css'
 import { faUser} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const SingleMember = (props) => {
-    // console.log(props.member)
+
+     //   destructuring object
     const { name, owner, designation, age, salary, img } = props.member;
 
+    // icon
     const man = <FontAwesomeIcon icon={faUser} />
     return (
-
+        
+            //   i am showing every member
             <div className="col-md-4">
                 <div className="member">
                             <div className="member">
@@ -16,7 +19,7 @@ const SingleMember = (props) => {
                    </div>
             <div>
                 <h6>Name:- { name}</h6>           
-                <table>
+                    <table>    
                     <tr>
                         <td>Owner:-</td>
                         <td>{ owner}</td>
@@ -34,7 +37,9 @@ const SingleMember = (props) => {
                         </td>
                         <td>{ salary}</td>
                     </tr>
-                </table>
+                    </table>
+
+                    {/* get data */}
                     <button onClick={ () => props.addHandler(props.member) }> <small>{ man}</small> Add Member</button>
                    </div>
                  </div>
