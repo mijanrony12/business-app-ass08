@@ -1,0 +1,13 @@
+.header-content {
+  background-color: #2d3436;
+  color: #fff;
+  padding: 20px;
+}
+
+.header-content h1 {
+  font-size: 40px;
+  font-style: italic;
+}
+.header-content h2 {
+  color: #ff7675;
+}
