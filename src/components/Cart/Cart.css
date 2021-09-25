@@ -1,0 +1,12 @@
+.cart {
+  background: gray;
+  color: #fff;
+  padding: 15px;
+  text-align: left;
+}
+.cart h3 {
+  color: #2d3436;
+}
+.cart h3 small {
+  margin-right: 5px;
+}

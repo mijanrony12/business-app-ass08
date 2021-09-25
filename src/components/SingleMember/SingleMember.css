@@ -1,5 +1,31 @@
 .member {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+.member:hover {
+  transform: translate(0px, -20px);
 }
 .member img {
   width: 100%;
+  border-radius: 50%;
+  padding: 20px;
+}
+.member button {
+  background-color: #2d3436;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.member button small {
+  margin-right: 8px;
+}
+.member button:hover {
+  border: 2px solid gray;
+}
+.member h2 {
+  color: #ff7675;
 }
