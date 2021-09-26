@@ -1,6 +1,7 @@
 import { faCoffee,faMale} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import Member from '../Member/Member';
 import './Cart.css'
 const Cart = (props) => {
 
@@ -25,7 +26,7 @@ const Cart = (props) => {
                     
                     <h5>FullName:</h5>
                         {
-                            props.cart.map(pd => <li>{ pd.name}</li> )
+                            props.cart.map(item => <Member member={item}></Member> )
                         }
                 </div>
                 <button>Clear</button>

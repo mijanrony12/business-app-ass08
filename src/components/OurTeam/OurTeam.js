@@ -21,7 +21,7 @@ const OurTeam = () => {
         const newData = [ ...cart, team ]
        setCart(newData)
     }
-   
+   console.log(cart)
     return (
         <div className="container team">
 

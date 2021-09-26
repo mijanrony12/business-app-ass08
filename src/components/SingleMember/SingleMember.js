@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const SingleMember = (props) => {
 
      //   destructuring object
-    const { name, owner, designation, age, salary, img } = props.member;
+    const { name, owner, designation, age, salary, img,isAdded } = props.member;
 
     // icon
     const man = <FontAwesomeIcon icon={faUser} />
@@ -39,12 +39,14 @@ const SingleMember = (props) => {
                             </tr>
                             </table>
 
-                    {/* get data */}
-                    <button onClick={ () => props.addHandler(props.member) }> <small>{ man }</small> Add Member</button>
+                    {/* get data */ }
+                 <button onClick={ () => props.addHandler(props.member) }> <small>{ man }</small> Add Member</button> 
+                   
                     <div className="icon">
                                 <i class="fab fa-facebook-square"></i>
                                <i class="fab fa-instagram-square"></i>
                     </div>
+                    
                    </div>
                  </div>
               </div>
