@@ -27,6 +27,10 @@
 .member button:hover {
   border: 2px solid gray;
 }
-.member h2 {
+.member h5 {
   color: #ff7675;
+}
+.icon i {
+  font-size: 40px;
+  padding: 10px 20px;
 }
